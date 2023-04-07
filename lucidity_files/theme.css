@@ -1,0 +1,164 @@
+/*----------------------------------
+		Theme411_Clean_Slate
+		Cat Generic
+----------------------------------*/
+
+body {
+	font-family: "Times New Roman", Times, FreeSerif, serif;
+}
+
+/*--------------------------------
+		Hiding
+---------------------------------*/
+
+.sf_navigation_top {
+	display: none;
+}
+
+.sf_subnavigation {
+	display: none;
+}
+
+.sf_subnavigation2 {
+	display: none;
+}
+
+/*--------------------------------
+		Bottom Navigation
+---------------------------------*/
+
+/**
+ * @section navigation
+ */
+.sf_navigation {
+	padding:0;
+	margin: 0;
+}
+
+.sf_navigation ul {
+	height: auto !important;
+	height: 1%;
+	list-style-type:disc;
+	margin:0;
+	padding:0 0 0 30px;
+	width: 200px;
+}
+
+.sf_navigation ul li {
+	margin:0;
+	padding:0;
+	width:200px;
+}
+
+.sf_navigation ul li a {
+	display:block;
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+	width:175px;
+}
+
+.sf_navigation ul li a:hover {
+	text-decoration:underline;
+}
+
+/**
+ * @section subnav
+ */
+.sf_navigation ul.subnav {
+	background:#ffffff;
+	left: -999em;
+	list-style-type:none;
+	margin:-1.12em 0 0 160px;
+	padding:0;
+	position: absolute;
+	float: left;
+	width: 170px;
+	z-index:1000;
+}
+
+.sf_navigation ul.subnav li {
+	float: left;
+	width: 170px;
+	margin:0;
+	padding:0;
+}
+
+.sf_navigation ul.subnav li a {
+	width: 170px;
+	display: block;
+	padding:2px 0;
+	margin: 0;
+	background-image:none;
+}
+
+.sf_navigation ul.subnav li a {
+	text-decoration:none;
+}
+
+.sf_navigation ul.subnav li a:hover {
+	background:#f1f1f1;
+	text-decoration:underline;
+}
+
+#Nav1 li:hover ul,
+#Nav1 li.sfhover ul {
+	left: auto;
+}
+
+#Nav1 iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=0);
+}
+
+#Nav1 li:hover,
+#Nav1 li.hover {
+	position: static;
+}
+
+/*--------------------------------
+		End Bottom Navigation
+---------------------------------*/
+
+
+.sf_extra5 {
+	clear:none !important;
+	clear:left;
+}
+
+/*--------------------------------
+		 	Page Title
+---------------------------------*/
+
+.sf_pagetitle {
+ color:;
+}
+
+/*--------------------------
+		 Footer
+--------------------------*/
+
+.sf_footer {
+	clear: both;
+}
+
+.sf_banner {
+	margin: 40px auto 0 auto;
+	text-align: center;
+}
+
+/**
+ * Sticking flyout menu bug
+ *
+ * @bugfix
+ * @affected ie7
+ * @css-for ie7
+ * @valid yes
+ */
+#Nav1 li:hover,
+#Nav1 li.hover {
+	position: static;
+}
